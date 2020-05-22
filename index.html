@@ -11,6 +11,12 @@
       sizes="16x16"
     />
 
+    <!-- ------------------------------------- Font Awesome ------------------------------------- -->
+    <script
+      src="https://kit.fontawesome.com/d907e12751.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- ------------------------------------- BootStrape ------------------------------------- -->
     <link
       rel="stylesheet"
@@ -25,7 +31,64 @@
     <title>Big Store</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <!-- ------------------------------------- Main Head ------------------------------------- -->
+
+    <section id="head">
+      <div class="container-fluid bg-black">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <!-- Header Logo -->
+              <div class="logo">
+                <h1 class="txt-red">BIG STORE</h1>
+                <p>sample store website</p>
+              </div>
+            </div>
+            <div class="col-9">
+              <div class="menu">
+                <ul class="nav justify-content-end">
+                  <li class="nav-item"><a href="#">My Account</a></li>
+                  <li class="nav-item"><a href="#">Wishlist</a></li>
+                  <li class="nav-item"><a href="#">My Cart</a></li>
+                  <li class="nav-item"><a href="#">Checkout</a></li>
+                  <li class=""><a href="#">Login</a></li>
+                </ul>
+              </div>
+
+              <div class="row mt-3">
+                <div class="col-8">
+                  <div class="section">
+                    <input
+                      class="form-control"
+                      type="text"
+                      placeholder="Search Here ....."
+                    />
+                    <button type="submit" class="btn btn-danger">
+                      <i class="fas fa-search fa-sm"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-1">
+                  <div class="crtIcon">
+                    <i class="fas fa-shopping-cart fa-sm"></i>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="amount">
+                    <p class="h">Total</p>
+                    <p class="a">$600</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------- Navbar ------------------------------------- -->
+
+    <nav class="navbar"></nav>
 
     <!-- ------------------------------------- BootStrape ------------------------------------- -->
     <script
